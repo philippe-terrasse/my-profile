@@ -1,0 +1,75 @@
+body{
+	background-color: #23272A;
+	color: white;
+	font-size: 18px;
+	line-height: 1;
+	font-weight:500;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: rgba(59, 255, 203,0.7);
+	font-weight: 700;
+}
+
+a:hover{
+	color:rgba(191, 31, 61,0.9);
+}
+
+h1,h2,h3{	
+	color:#8EA1E1;
+	font-family: "Alatsi",sans-serif;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width:600px;
+		font-size:15px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width:300px
+		font-size:12px;
+	}
+}
+
+.card-grey{
+	margin: 40px 50px;
+	background-color: #36393F;
+	padding: 35px;
+	box-shadow: 0px 15px 35px rgba(0, 0, 0,.3);
+	border-radius:10px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius:50%;
+}
+
+.btn-purple{
+	background-color: #8EA1E1;
+	color:black;
+	padding:5px 10px;
+	border-radius: 5px
+}
+
+.btn-purple:hover {
+	color:rgb(84, 14, 27);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display : inline ;
+	padding : 10px;
+}
+
+.list-inline i {
+	font-size : 30px;
+}
